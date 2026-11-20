@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" preserveAspectRatio="none">
+  <defs>
+    <filter id="soft" x="-40%" y="-60%" width="180%" height="220%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="74"/></filter>
+    <linearGradient id="champagne" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dac5a3" stop-opacity=".52"/><stop offset=".48" stop-color="#efe1c9" stop-opacity=".54"/><stop offset="1" stop-color="#d2c3a9" stop-opacity=".42"/></linearGradient>
+    <linearGradient id="stone" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#d8dcd2" stop-opacity=".52"/><stop offset=".5" stop-color="#e3e6de" stop-opacity=".32"/><stop offset="1" stop-color="#d4dacd" stop-opacity=".38"/></linearGradient>
+  </defs>
+  <rect width="1440" height="1000" fill="#fcfaf7"/>
+  <g filter="url(#soft)" fill="none" stroke-linecap="round">
+    <path d="M-300 60 C 50 800 560 -180 1070 245 S 1510 1040 1810 540" stroke="url(#champagne)" stroke-width="360"/>
+    <path d="M-300 930 C 260 110 650 1030 1130 610 S 1540 100 1750 350" stroke="url(#stone)" stroke-width="420"/>
+    <path d="M-240 515 C 200 15 590 1060 1015 490 S 1440 135 1770 620" stroke="#ffffff" stroke-opacity=".78" stroke-width="230"/>
+  </g>
+</svg>

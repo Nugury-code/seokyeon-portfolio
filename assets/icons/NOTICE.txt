@@ -1,0 +1,14 @@
+Python, Linux and PuTTY logos: Devicon, MIT license.
+https://github.com/devicons/devicon
+See DEVICON-LICENSE.txt.
+
+Tailscale logo: Simple Icons, CC0 1.0 Universal.
+https://github.com/simple-icons/simple-icons
+See SIMPLE-ICONS-LICENSE.txt.
+
+Product names and logos remain the property of their respective owners.
+VMware Workstation application icon: Dashboard Icons.
+https://github.com/homarr-labs/dashboard-icons
+Source: https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/png/vmware-workstation.png
+See DASHBOARD-ICONS-LICENSE.txt (Apache License 2.0).
+The user confirmed the orange-and-blue application icon. No product version is claimed.
