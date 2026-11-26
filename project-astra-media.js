@@ -1,6 +1,6 @@
 // Verified final demonstrations. Load videos only when played.
 window.ASTRA_MEDIA = {
-  "cover": "assets/projects/astra/detection-overview-real.png",
+  "cover": "assets/projects/astra/console-main-real.png",
   "scenarios": {
     "bruteforce": {
       "video": "assets/projects/astra/bruteforce.mp4",
