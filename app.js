@@ -18,6 +18,7 @@ for (const dialog of document.querySelectorAll('dialog')) {
     if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close();
   });
   dialog.addEventListener('close', () => {
+    dialog.querySelectorAll('video').forEach(video => video.pause());
     document.body.classList.remove('dialog-open');
     lastTrigger?.focus();
   });
@@ -28,7 +29,9 @@ function selectTab(tab, moveFocus = false) {
     const selected = item === tab;
     item.setAttribute('aria-selected', String(selected));
     item.tabIndex = selected ? 0 : -1;
-    document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
+    const panel = document.getElementById(item.getAttribute('aria-controls'));
+    panel.hidden = !selected;
+    if (!selected) panel.querySelectorAll('video').forEach(video => video.pause());
   }
   if (moveFocus) tab.focus();
 }

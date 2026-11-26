@@ -9,7 +9,10 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preload" href="fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css?v=footer-right-20261121_071555">
-  <script src="app.js?v=certificates-20261121_061555" defer></script>
+  <link rel="stylesheet" href="project-astra.css?v=20261127-final4">
+  <script src="app.js?v=astra-20261124" defer></script>
+  <script src="project-astra-media.js?v=20261127-final4" defer></script>
+  <script src="project-astra.js?v=20261125-fade18" defer></script>
 </head>
 <body>
   <div class="ambient" aria-hidden="true"></div>
@@ -83,30 +86,31 @@
           </li>
         </ol>
       </section>
-      <section class="work section-space" id="work" aria-labelledby="work-title">
-        <div class="section-heading"><div><p class="section-label" lang="en">SELECTED EXPERIENCE</p><h2 id="work-title">직접 해보며 배운 것.</h2></div><p class="section-intro">직접 만들고, 서버에 올리고,<br>예상대로 작동하는지 확인했습니다.</p></div>
-        <article class="project-feature">
-          <div class="project-copy">
-            <p class="project-category">SKT ALEPH <span aria-hidden="true">/</span> 보안 교육 팀 프로젝트</p>
-            <h3>수상한 접속을 찾고,<br> 막히는지 확인하기.</h3>
-            <p class="project-description">서버에 남은 접속 기록에서 이상한 움직임을 찾는 프로그램을 만들고, 팀의 대응 기능과 연결해 실제 차단까지 확인했습니다.</p>
-            <dl class="project-role"><div><dt>직접 구현</dt><dd>Python 로그 정리·이상탐지 규칙</dd></div><div><dt>배포·검증</dt><dd>VM 서버 배포·탐지 및 차단 연계 확인</dd></div></dl>
-            <div class="tech-list" aria-label="프로젝트에 사용한 기술"><span>Python</span><span>Linux</span><span>VM</span><span>pfSense</span></div>
-            <button class="button button-outline" type="button" data-dialog="project">프로젝트 자세히 보기</button>
+      <section class="work section-space astra-work" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><div><p class="section-label" lang="en">PROJECTS</p><h2 id="work-title">프로젝트</h2></div><p class="section-intro">직접 구현한 기능과<br>검증 과정을 소개합니다.</p></div>
+        <article class="astra-feature" aria-labelledby="astra-card-title">
+          <div class="astra-feature-copy">
+            <p class="astra-meta">SKT ALEPH 캡스톤 · 4인 팀 프로젝트</p>
+            <h3 id="astra-card-title">ASTRA</h3>
+            <p class="astra-subtitle">로그 기반 이상행위 탐지·대응 자동화</p>
+            <p class="astra-summary">Python으로 로그 수집·정규화와 이상탐지를 자동화하고,<br class="astra-desktop-break"> VM 배포와 대응 연계 검증을 담당했습니다.</p>
+            <dl class="astra-role-summary"><div><dt>직접 구현</dt><dd>Python 기반 로그 처리·이상탐지 자동화</dd></div><div><dt>배포·검증</dt><dd>VM 서버 배포 및 대응 연계 확인</dd></div></dl>
+            <p class="astra-stack">Python <span>·</span> Linux <span>·</span> VMware <span>·</span> pfSense 연동</p>
+            <button class="button button-primary astra-open" type="button" data-dialog="project" aria-haspopup="dialog" aria-controls="project">담당 역할과 시연 보기</button>
           </div>
-          <div class="project-visual" aria-label="서버 기록을 Python으로 분석하고 팀 대응 기능에 연결해 차단을 확인하는 흐름">
-            <div class="visual-header"><span>기록에서, 해결의 단서로.</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 4.5 6v5.4c0 4.3 3.2 7.6 7.5 9.6 4.3-2 7.5-5.3 7.5-9.6V6L12 3Z"/><path d="m8.5 12 2.3 2.3 4.7-4.6"/></svg></div>
-            <div class="flow">
-              <div class="flow-node"><span class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><div><span class="flow-kicker">접속 기록</span><strong>어떤 일이 있었는지 살피고</strong></div></div>
-              <div class="flow-connector" aria-hidden="true"></div>
-              <div class="flow-node flow-personal"><span class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></span><div><span class="flow-kicker">Python 이상 탐지</span><strong>의심스러운 움직임을 찾습니다</strong></div><span class="flow-badge">직접 구현</span></div>
-              <div class="flow-connector" aria-hidden="true"></div>
-              <div class="flow-node"><span class="flow-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4.5 6v5.4c0 4.3 3.2 7.6 7.5 9.6 4.3-2 7.5-5.3 7.5-9.6V6L12 3Z"/><path d="m8.5 12 2.3 2.3 4.7-4.6"/></svg></span><div><span class="flow-kicker">팀의 대응 기능과 연계</span><strong>차단 결과까지 확인합니다</strong></div></div>
+          <figure class="astra-cover" aria-label="직접 담당한 로그 수집·정규화, 이상탐지 규칙 구현, VM 배포·대응 연계 검증">
+            <img class="astra-cover-image" data-astra-cover hidden alt="ASTRA 프로젝트 대표 화면">
+            <div class="astra-cover-flow" data-astra-cover-fallback>
+              <div class="astra-cover-heading"><span>직접 맡은 작업</span><span class="astra-cover-label">개인 담당</span></div>
+              <ol class="astra-flow">
+                <li><span class="astra-flow-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><div><strong>로그 수집·정규화</strong><p>서버 로그를 수집하고 공통 형식으로 정리</p></div></li>
+                <li><span class="astra-flow-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg></span><div><strong>Python 이상행위 탐지 자동화</strong><p>행위별 규칙과 위험 점수로 보안 이벤트 판별</p></div></li>
+                <li><span class="astra-flow-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4.5 6v5.4c0 4.3 3.2 7.6 7.5 9.6 4.3-2 7.5-5.3 7.5-9.6V6L12 3Z"/><path d="m8.5 12 2.3 2.3 4.7-4.6"/></svg></span><div><strong>VM 배포·대응 연계 검증</strong><p>탐지 프로그램을 배포하고 팀 대응 기능과 연계 확인</p></div></li>
+              </ol>
+              <p class="astra-cover-caption">4가지 이상행위 시나리오를 다룬 프로젝트</p>
             </div>
-            <div class="visual-footer"><span class="visual-small-line" aria-hidden="true"></span><p>탐지 구현부터 연계 검증까지</p></div><p class="visual-caption">프로젝트의 동작 흐름을 설명한 그림입니다.</p>
-          </div>
+          </figure>
         </article>
-        <div class="work-note"><span>제가 확인한 네 가지 상황</span><p>브루트포스 · 권한 밖 접근 · 퇴사자 계정 접근 · SQL Injection</p></div>
       </section>
       <section class="certificates section-space" id="certificates" aria-labelledby="certificates-title">
         <div class="section-heading"><div><p class="section-label" lang="en">EDUCATION</p><h2 id="certificates-title">교육·수료증</h2></div></div>
@@ -129,18 +133,61 @@
     </main>
     <footer class="site-footer"><span>© 2026 원석연</span></footer>
   </div>
-  <dialog id="project" aria-labelledby="project-title">
-    <div class="dialog-top"><span class="section-label">SKT ALEPH · 팀 프로젝트</span><button class="close-button" type="button" aria-label="프로젝트 창 닫기">닫기 <span aria-hidden="true">×</span></button></div>
-    <div class="dialog-body"><h2 id="project-title">접속 기록에서 이상 징후를 찾고,<br>대응까지 이어지는지 확인했습니다.</h2><p class="dialog-lead">팀은 서버 로그를 분석해 이상 접속을 찾고, 위험도에 따라 자동으로 또는 담당자의 승인 후 차단하는 시스템을 만들었습니다.</p>
-      <div class="project-tabs" role="tablist" aria-label="프로젝트 상세"><button id="role-tab" type="button" role="tab" aria-selected="true" aria-controls="role-panel">제가 맡은 역할</button><button id="scenario-tab" type="button" role="tab" aria-selected="false" aria-controls="scenario-panel" tabindex="-1">검증한 네 가지 상황</button></div>
-      <section id="role-panel" role="tabpanel" aria-labelledby="role-tab" tabindex="0"><h3>직접 구현하고 검증한 부분</h3><ul class="readable-list"><li>서버 로그를 모아 같은 형식으로 정리하고, 이상 징후를 찾는 Python 탐지 규칙을 작성했습니다.</li><li>VM으로 구성한 서버에 프로그램을 배포하고 실행했습니다.</li><li>모의 공격 후 로그와 탐지 결과를 확인했습니다.</li><li>팀의 대응 기능과 연결하고, 탐지된 출발지 IP가 방화벽에서 차단되는지 확인했습니다.</li></ul><div class="role-note"><strong>팀의 구현과 제 역할</strong><p>방화벽 대응과 AI를 활용한 접근권한 회수는 팀의 기능입니다. 저는 Python 이상탐지 구현·VM 배포·탐지 및 대응 연계 검증을 맡았습니다.</p></div></section>
-      <section id="scenario-panel" role="tabpanel" aria-labelledby="scenario-tab" tabindex="0" hidden><h3>이런 접속을 시험했습니다</h3><dl class="scenario-list"><div><dt>비밀번호를 계속 틀리는 접속</dt><dd>짧은 시간에 로그인을 반복하는 공격 · 브루트포스</dd></div><div><dt>허용되지 않은 페이지에 접근</dt><dd>주소를 바꿔 다른 부서 페이지에 들어가려는 상황 · 권한 밖 접근</dd></div><div><dt>퇴사한 사람의 계정으로 접속</dt><dd>퇴사자 계정을 이용한 접근 시도</dd></div><div><dt>입력창에 공격용 명령을 넣는 시도</dt><dd>데이터베이스를 조작하려는 공격 · SQL Injection</dd></div></dl></section>
-      <details class="technical-details"><summary>사용한 기술 자세히 보기</summary><p>Python · pfSense · Linux · VM · Tailscale · SSH(PuTTY)</p></details>
+  <dialog id="project" class="astra-dialog" aria-labelledby="project-title">
+    <div class="dialog-top"><span class="astra-dialog-brand">ASTRA <span>SKT ALEPH · 4인 팀</span></span><button class="close-button" type="button" aria-label="프로젝트 창 닫기">닫기 <span aria-hidden="true">×</span></button></div>
+    <div class="dialog-body astra-dialog-body">
+      <header class="astra-detail-heading"><h2 id="project-title">로그 기반 이상행위 탐지·대응 자동화</h2><p>서버의 행동 기록에서 이상 접근을 찾고, 방화벽 차단까지 연계한 보안 프로젝트입니다.</p></header>
+      <div class="astra-detail-layout">
+        <aside class="astra-contribution" aria-labelledby="astra-contribution-title">
+          <p class="astra-detail-label">개인 담당</p><h3 id="astra-contribution-title">수집·정규화부터 <br>배포·검증까지</h3>
+          <ul><li>Python 로그 수집·정규화 자동화</li><li>이상행위 탐지 규칙 구현</li><li>VM 배포·대응 연계 검증</li></ul>
+          <div class="astra-team-context"><strong>팀과의 연계</strong><p>팀의 권한 회수·자동 대응 기능과 연결해 탐지 결과와 IP 차단 동작을 확인했습니다.</p></div>
+        </aside>
+        <div class="astra-demonstrations">
+          <h3 class="astra-demo-heading">공격과 대응 시연</h3>
+          <div class="project-tabs astra-demo-tabs" role="tablist" aria-label="시연 시나리오"><button id="astra-tab-bruteforce" type="button" role="tab" aria-selected="true" aria-controls="astra-panel-bruteforce">브루트포스</button><button id="astra-tab-offboarded" type="button" role="tab" aria-selected="false" aria-controls="astra-panel-offboarded" tabindex="-1">퇴사자 계정</button><button id="astra-tab-unauthorized" type="button" role="tab" aria-selected="false" aria-controls="astra-panel-unauthorized" tabindex="-1">권한 밖 접근</button><button id="astra-tab-sql-injection" type="button" role="tab" aria-selected="false" aria-controls="astra-panel-sql-injection" tabindex="-1">SQL Injection</button></div>
+          <section id="astra-panel-bruteforce" class="astra-demo-panel" role="tabpanel" aria-labelledby="astra-tab-bruteforce" tabindex="0" data-astra-scenario="bruteforce">
+              <h4>반복되는 로그인 실패 탐지</h4>
+              <div class="astra-video-stage">
+                <video class="astra-video" controls playsinline preload="none" hidden aria-label="브루트포스 시연 영상"></video>
+                <div class="astra-video-placeholder"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="11" width="34" height="26" rx="4"/><path d="M7 19h34M7 29h34M15 11v8m18-8v8M15 29v8m18-8v8"/></svg><strong>브루트포스 시연</strong><p>시연 영상 준비 중</p></div>
+              </div>
+              <p class="astra-demo-description">짧은 시간에 로그인 실패가 반복되는 상황을 탐지합니다.</p>
+              <ol class="astra-demo-sequence" aria-label="이 시나리오에서 확인할 흐름"><li>로그인 반복 실패</li><li>실패 로그 집계</li><li>출발지 IP 차단</li></ol>
+            </section><section id="astra-panel-offboarded" class="astra-demo-panel" role="tabpanel" aria-labelledby="astra-tab-offboarded" tabindex="0" data-astra-scenario="offboarded" hidden>
+              <h4>퇴사자 계정의 접근 탐지</h4>
+              <div class="astra-video-stage">
+                <video class="astra-video" controls playsinline preload="none" hidden aria-label="퇴사자 계정 시연 영상"></video>
+                <div class="astra-video-placeholder"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="11" width="34" height="26" rx="4"/><path d="M7 19h34M7 29h34M15 11v8m18-8v8M15 29v8m18-8v8"/></svg><strong>퇴사자 계정 시연</strong><p>시연 영상 준비 중</p></div>
+              </div>
+              <p class="astra-demo-description">퇴사자 명단에 등록된 계정의 서비스 접근을 식별합니다.</p>
+              <ol class="astra-demo-sequence" aria-label="이 시나리오에서 확인할 흐름"><li>퇴사 계정으로 접근</li><li>명단·로그 대조</li><li>출발지 IP 차단</li></ol>
+            </section><section id="astra-panel-unauthorized" class="astra-demo-panel" role="tabpanel" aria-labelledby="astra-tab-unauthorized" tabindex="0" data-astra-scenario="unauthorized" hidden>
+              <h4>역할에 없는 페이지 접근 탐지</h4>
+              <div class="astra-video-stage">
+                <video class="astra-video" controls playsinline preload="none" hidden aria-label="권한 밖 접근 시연 영상"></video>
+                <div class="astra-video-placeholder"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="11" width="34" height="26" rx="4"/><path d="M7 19h34M7 29h34M15 11v8m18-8v8M15 29v8m18-8v8"/></svg><strong>권한 밖 접근 시연</strong><p>시연 영상 준비 중</p></div>
+              </div>
+              <p class="astra-demo-description">주소를 바꿔 권한이 없는 부서 메뉴에 접근하는 상황을 다룹니다.</p>
+              <ol class="astra-demo-sequence" aria-label="이 시나리오에서 확인할 흐름"><li>권한 밖 메뉴 접근</li><li>사용자 역할 대조</li><li>차단 결과 확인</li></ol>
+            </section><section id="astra-panel-sql-injection" class="astra-demo-panel" role="tabpanel" aria-labelledby="astra-tab-sql-injection" tabindex="0" data-astra-scenario="sql-injection" hidden>
+              <h4>로그인 입력의 인젝션 패턴 탐지</h4>
+              <div class="astra-video-stage">
+                <video class="astra-video" controls playsinline preload="none" hidden aria-label="SQL Injection 시연 영상"></video>
+                <div class="astra-video-placeholder"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="7" y="11" width="34" height="26" rx="4"/><path d="M7 19h34M7 29h34M15 11v8m18-8v8M15 29v8m18-8v8"/></svg><strong>SQL Injection 시연</strong><p>시연 영상 준비 중</p></div>
+              </div>
+              <p class="astra-demo-description">로그인 입력에 포함된 공격 패턴을 로그에서 식별합니다.</p>
+              <ol class="astra-demo-sequence" aria-label="이 시나리오에서 확인할 흐름"><li>로그인 입력 조작</li><li>입력 패턴 탐지</li><li>차단 결과 확인</li></ol>
+            </section>
+        </div>
+      </div>
+      <details class="astra-system-details"><summary>전체 시스템과 역할 구분</summary><div class="astra-system-content"><p>운영 프로그램의 행동 기록을 로그 서버에 모으고, 탐지 결과를 대응 단계에 전달하는 구조입니다.</p><ol class="astra-system-flow"><li><strong>운영 프로그램</strong><span>행동 로그 발생</span></li><li><strong>로그 서버</strong><span>이벤트 수집·저장</span></li><li class="astra-system-own"><strong>로그 처리·탐지</strong><span>개인 구현</span></li><li><strong>보안 콘솔</strong><span>팀 대응 기능</span></li><li><strong>pfSense</strong><span>출발지 IP 차단</span></li></ol><p class="astra-system-note">팀 프로젝트에는 OCC 기반 권한 회수와 AI 보고서 기능도 포함됩니다. 이 페이지는 제가 맡은 로그 수집·정규화, 탐지 규칙 구현과 VM 배포·연계 검증을 중심으로 소개합니다.</p><dl class="astra-tech-context"><div><dt>직접 사용</dt><dd>Python · Linux · VMware</dd></div><div><dt>연동 환경</dt><dd>MariaDB · pfSense · SSH · Tailscale</dd></div></dl></div></details>
     </div>
   </dialog>
   <dialog class="certificate-dialog" id="certificate-preview" aria-labelledby="certificate-preview-title">
     <div class="dialog-top"><h2 id="certificate-preview-title">SKT ALEPH 과정 인증서</h2><button class="close-button" type="button" aria-label="인증서 창 닫기">닫기 <span aria-hidden="true">×</span></button></div>
     <div class="certificate-dialog-body"><img class="certificate-dialog-image" src="assets/certificates/aleph-certificate-public.png" alt="Class Top 등 엠블럼과 교육 이수 내용이 있는 원석연의 SKT ALEPH 과정 인증서" width="2339" height="1653" loading="lazy" decoding="async"><a class="certificate-pdf-link" href="assets/certificates/aleph-certificate-public.pdf" target="_blank" rel="noopener">인증서 PDF 보기<span class="sr-only"> (새 탭)</span></a></div>
   </dialog>
+
 </body>
 </html>
