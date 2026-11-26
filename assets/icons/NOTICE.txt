@@ -12,3 +12,7 @@ https://github.com/homarr-labs/dashboard-icons
 Source: https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/png/vmware-workstation.png
 See DASHBOARD-ICONS-LICENSE.txt (Apache License 2.0).
 The user confirmed the orange-and-blue application icon. No product version is claimed.
+
+MariaDB, JavaScript, Supabase, Vercel, Claude and GitHub logos: Simple Icons, CC0 1.0 Universal.
+https://github.com/simple-icons/simple-icons
+See SIMPLE-ICONS-LICENSE.txt. Product names and logos remain their owners' trademarks.
