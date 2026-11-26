@@ -129,3 +129,17 @@ dialog{width:min(850px,calc(100% - 32px));max-height:calc(100dvh - 48px);padding
 
 /* One quiet copyright line closes the page at every viewport. */
 .site-footer{display:block;text-align:right}
+
+/* Named technologies are peers within their actual domain, never nested under JavaScript. */
+.skills-groups{border-top:1px solid var(--line)}
+.skill-group{display:grid;grid-template-columns:165px minmax(0,1fr);gap:32px;padding:27px 0;border-bottom:1px solid var(--line)}
+.skill-group>h3{font-size:1.375rem;font-weight:700;line-height:1.5;letter-spacing:-.035em}
+.skill-entries{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 28px}
+.skill-entry{min-width:0}
+.skill-entry-heading{display:flex;flex-wrap:wrap;align-items:center;gap:7px 10px;min-height:30px}
+.skill-entry-heading img{display:block;flex:0 0 26px;object-fit:contain}
+.skill-entry h4{margin:0;font-size:1.25rem;font-weight:700;line-height:1.5;letter-spacing:-.025em}
+.skill-kind{font-size:.9375rem;font-weight:500;line-height:1.6;color:var(--muted)}
+.skill-entry>p{margin-top:7px;color:var(--body);font-size:1.125rem;font-weight:450;line-height:1.8;letter-spacing:-.015em}
+@media(max-width:950px){.skill-group{grid-template-columns:1fr;gap:19px}.skill-entries{gap:23px 25px}}
+@media(max-width:620px){.skill-group{padding:24px 0;gap:18px}.skill-group>h3{font-size:1.25rem}.skill-entries{grid-template-columns:1fr;gap:21px}.skill-entry h4{font-size:1.1875rem}}
