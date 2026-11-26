@@ -22,16 +22,16 @@
 .astra-cover-real-caption{padding:0 24px;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.7;text-align:center}
 .astra-cover-real-caption span{display:block;margin-top:4px;color:var(--muted);font-size:.875rem;font-weight:400}
 
-.astra-feature{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);grid-template-areas:"visual copy"}
+.astra-feature{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);grid-template-areas:"visual copy"}
 .astra-feature-copy{grid-area:copy;padding:30px 32px}
 .astra-feature h3{font-size:2.25rem;margin-top:18px}
 .astra-feature .astra-summary{font-size:1rem;line-height:1.8}
 .astra-feature .astra-role-summary{margin-top:18px;padding-top:15px}
 .astra-feature .astra-role-summary>div{line-height:1.6}
 .astra-cover--console{grid-area:visual;position:relative;display:block;align-self:stretch;min-height:0;padding:0;border-left:0;border-right:1px solid var(--line);background:#0c1423}
-.astra-cover--console .astra-cover-image{position:absolute;inset:0;width:100%;height:100%;min-height:0;aspect-ratio:auto;margin:0;object-fit:cover;object-position:left top;border-radius:0}
+.astra-cover--console .astra-cover-image{position:absolute;inset:0;width:100%;height:100%;min-height:0;aspect-ratio:auto;margin:0;object-fit:contain;object-position:center;border-radius:0}
 .astra-cover--console .astra-cover-real-caption{padding:16px 20px;font-size:.9375rem}
-@media(max-width:720px){.astra-feature{grid-template-columns:1fr;grid-template-areas:"visual" "copy"}.astra-feature-copy{padding:27px 23px}.astra-cover--console{aspect-ratio:1056/924;border-right:0;border-top:0;border-bottom:1px solid var(--line)}}
+@media(max-width:720px){.astra-feature{grid-template-columns:1fr;grid-template-areas:"visual" "copy"}.astra-feature-copy{padding:27px 23px}.astra-cover--console{aspect-ratio:1000/924;border-right:0;border-top:0;border-bottom:1px solid var(--line)}}
 
 /* A thumbnail opens the demonstration in a large, centered video dialog. */
 .astra-video-launch{position:absolute;inset:0;display:grid;place-items:center;width:100%;height:100%;border:0;background:transparent;color:var(--accent);cursor:pointer}
