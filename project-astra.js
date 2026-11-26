@@ -3,7 +3,7 @@
   const viewer = document.createElement('dialog');
   viewer.className = 'astra-lightbox';
   viewer.setAttribute('aria-labelledby', 'astra-lightbox-title');
-  viewer.innerHTML = '<div class="astra-lightbox-header"><h2 id="astra-lightbox-title"></h2><button type="button" class="astra-lightbox-close" aria-label="영상 창 닫기">닫기 <span aria-hidden="true">×</span></button></div><video controls playsinline preload="none"></video><p class="astra-lightbox-error" role="status" hidden>영상을 불러오지 못했습니다. 잠시 후 다시 재생해 주세요.</p>';
+  viewer.innerHTML = '<div class="astra-lightbox-header"><div><span class="astra-lightbox-label">ASTRA · 시연 영상</span><h2 id="astra-lightbox-title"></h2></div><button type="button" class="astra-lightbox-close" aria-label="영상 창 닫기">닫기 <span aria-hidden="true">×</span></button></div><video controls playsinline preload="none"></video><p class="astra-lightbox-error" role="status" hidden>영상을 불러오지 못했습니다. 잠시 후 다시 재생해 주세요.</p>';
   document.body.append(viewer);
   const player = viewer.querySelector('video');
   const playerTitle = viewer.querySelector('h2');
@@ -48,8 +48,8 @@
     launch.className = 'astra-video-launch';
     launch.setAttribute('aria-haspopup', 'dialog');
     const title = panel.querySelector('h4').textContent;
-    launch.setAttribute('aria-label', title + ' 영상 크게 재생');
-    launch.innerHTML = '<span class="astra-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span>크게 재생</span>';
+    launch.setAttribute('aria-label', title + ' 시연 영상 재생');
+    launch.innerHTML = '<span class="astra-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>';
     video.parentElement.append(launch);
     launch.addEventListener('click', () => {
       playTrigger = launch;
