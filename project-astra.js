@@ -1,5 +1,29 @@
 (() => {
   const media = window.ASTRA_MEDIA || { scenarios: {} };
+  const viewer = document.createElement('dialog');
+  viewer.className = 'astra-lightbox';
+  viewer.setAttribute('aria-labelledby', 'astra-lightbox-title');
+  viewer.innerHTML = '<div class="astra-lightbox-header"><h2 id="astra-lightbox-title"></h2><button type="button" class="astra-lightbox-close" aria-label="영상 창 닫기">닫기 <span aria-hidden="true">×</span></button></div><video controls playsinline preload="none"></video><p class="astra-lightbox-error" role="status" hidden>영상을 불러오지 못했습니다. 잠시 후 다시 재생해 주세요.</p>';
+  document.body.append(viewer);
+  const player = viewer.querySelector('video');
+  const playerTitle = viewer.querySelector('h2');
+  const playerError = viewer.querySelector('.astra-lightbox-error');
+  let playTrigger;
+  viewer.querySelector('button').addEventListener('click', () => viewer.close());
+  viewer.addEventListener('click', event => {
+    if (event.target !== viewer) return;
+    const bounds = viewer.getBoundingClientRect();
+    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) viewer.close();
+  });
+  viewer.addEventListener('close', () => {
+    player.pause();
+    player.removeAttribute('src');
+    player.load();
+    playTrigger?.focus();
+  });
+  player.addEventListener('error', () => {
+    if (viewer.open && player.hasAttribute('src')) playerError.hidden = false;
+  });
   const cover = document.querySelector('[data-astra-cover]');
   const fallback = document.querySelector('[data-astra-cover-fallback]');
   if (cover && fallback && media.cover) {
@@ -14,8 +38,29 @@
     const placeholder = panel.querySelector('.astra-video-placeholder');
     video.src = item.video;
     if (item.poster) video.poster = item.poster;
+    video.controls = false;
+    video.tabIndex = -1;
+    video.setAttribute('aria-hidden', 'true');
     video.hidden = false;
     placeholder.hidden = true;
+    const launch = document.createElement('button');
+    launch.type = 'button';
+    launch.className = 'astra-video-launch';
+    launch.setAttribute('aria-haspopup', 'dialog');
+    const title = panel.querySelector('h4').textContent;
+    launch.setAttribute('aria-label', title + ' 영상 크게 재생');
+    launch.innerHTML = '<span class="astra-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span>크게 재생</span>';
+    video.parentElement.append(launch);
+    launch.addEventListener('click', () => {
+      playTrigger = launch;
+      playerTitle.textContent = title;
+      player.setAttribute('aria-label', title + ' 시연 영상');
+      player.poster = item.poster || '';
+      playerError.hidden = true;
+      player.src = item.video;
+      viewer.showModal();
+      player.play().catch(() => {});
+    });
     video.addEventListener('error', () => {
       video.hidden = true;
       placeholder.hidden = false;

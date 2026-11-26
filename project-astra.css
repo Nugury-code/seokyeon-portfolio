@@ -15,3 +15,20 @@
 
 /* Keep a hidden placeholder out of the native video player layout. */
 .astra-video[hidden],.astra-video-placeholder[hidden]{display:none!important}
+
+/* A thumbnail opens the demonstration in a large, centered video dialog. */
+.astra-video-launch{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:100%;height:100%;border:0;background:linear-gradient(transparent,#0005);color:#fff;font:inherit;font-size:1rem;font-weight:650;cursor:pointer;text-shadow:0 1px 6px #000}
+.astra-video-play{display:grid;place-items:center;width:68px;height:68px;border:1px solid #ffffff75;border-radius:50%;background:#20311fda;box-shadow:0 4px 24px #0004;transition:background .18s ease,transform .18s ease}
+.astra-video-play svg{width:34px;height:34px;margin-left:3px}
+.astra-video-launch:hover .astra-video-play{background:#405b32;transform:scale(1.06)}
+.astra-video-launch:focus-visible{outline:3px solid #fff;outline-offset:-6px}
+.astra-lightbox{width:min(1440px,calc(100vw - 40px));max-width:none;max-height:calc(100dvh - 32px);margin:auto;padding:0;border:1px solid #ffffff30;border-radius:16px;background:#101410;color:#f6f8f2;overflow:hidden;box-shadow:0 24px 100px #0009}
+.astra-lightbox::backdrop{background:#080d09e8;backdrop-filter:blur(7px)}
+.astra-lightbox-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 22px;border-bottom:1px solid #ffffff20}
+.astra-lightbox-header h2{margin:0;min-width:0;font-size:1.0625rem;font-weight:650;line-height:1.5;letter-spacing:-.025em}
+.astra-lightbox-close{display:flex;align-items:center;gap:10px;flex-shrink:0;padding:5px 8px;border:0;border-radius:5px;background:transparent;color:#f6f8f2;font:inherit;font-size:.9375rem;cursor:pointer}
+.astra-lightbox-close span{font-size:1.5rem;line-height:1}.astra-lightbox-close:hover{background:#ffffff18}
+.astra-lightbox video{display:block;width:100%;height:auto;max-height:calc(100dvh - 114px);aspect-ratio:16/9;object-fit:contain;background:#000}
+.astra-lightbox-error{margin:0;padding:12px 22px;font-size:1rem;line-height:1.5;color:#ffd9cd}
+@media(max-width:720px){.astra-lightbox{width:calc(100vw - 16px);border-radius:10px}.astra-lightbox-header{padding:12px 14px;gap:8px}.astra-lightbox-header h2{font-size:1rem}.astra-video-play{width:58px;height:58px}}
+@media(prefers-reduced-motion:reduce){.astra-video-play{transition:none}}
