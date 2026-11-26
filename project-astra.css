@@ -17,6 +17,10 @@
 .astra-video[hidden],.astra-video-placeholder[hidden]{display:none!important}
 .astra-cover-image{width:calc(100% - 36px);height:auto;min-height:0;margin:18px;object-fit:contain;border-radius:11px}
 .astra-cover-image[hidden]{display:none!important}
+.astra-cover--results{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 0;gap:2px}
+.astra-cover--results .astra-cover-image{aspect-ratio:auto}
+.astra-cover-real-caption{padding:0 24px;color:var(--ink);font-size:1rem;font-weight:650;line-height:1.7;text-align:center}
+.astra-cover-real-caption span{display:block;margin-top:4px;color:var(--muted);font-size:.875rem;font-weight:400}
 
 /* A thumbnail opens the demonstration in a large, centered video dialog. */
 .astra-video-launch{position:absolute;inset:0;display:grid;place-items:center;width:100%;height:100%;border:0;background:transparent;color:var(--accent);cursor:pointer}
