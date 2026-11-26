@@ -79,7 +79,7 @@
             <p class="astra-summary">Python으로 로그 수집·정규화와 이상탐지를 자동화하고,<br class="astra-desktop-break"> VM 배포와 대응 연계 검증을 담당했습니다.</p>
             <dl class="astra-role-summary"><div><dt>직접 구현</dt><dd>Python 기반 로그 처리·이상탐지 자동화</dd></div><div><dt>배포·검증</dt><dd>VM 서버 배포 및 대응 연계 확인</dd></div></dl>
             <p class="astra-stack">Python <span>·</span> Linux <span>·</span> VMware <span>·</span> pfSense 연동</p>
-            <button class="button button-primary astra-open" type="button" data-dialog="project" aria-haspopup="dialog" aria-controls="project">담당 역할과 시연 보기</button>
+            <div class="astra-card-actions"><button class="button button-primary astra-open" type="button" data-dialog="project" aria-haspopup="dialog" aria-controls="project">담당 역할과 시연 보기</button><a class="button button-outline" href="https://github.com/Nugury-code/ASTRA" target="_blank" rel="noopener">GitHub 코드 보기<span class="sr-only"> (새 탭)</span></a></div>
           </div>
           <figure class="astra-cover astra-cover--console" aria-label="네 시나리오의 실제 콘솔 시연 화면 모음">
             <img class="astra-cover-image" data-astra-cover hidden width="1000" height="924" alt="각 시연 영상에서 발췌해 모은 실제 콘솔 메뉴와 탐지 패널: 브루트포스 100점, 퇴사자 접근 85점, 권한 밖 접근 80점, 로그인 인젝션 100점">
@@ -134,7 +134,7 @@
         <div class="contact-actions"><a class="email-link" href="mailto:nuguly6248@naver.com">nuguly6248@naver.com</a><div class="contact-buttons"><a class="button button-primary" href="mailto:nuguly6248@naver.com">메일 보내기</a><button class="button button-outline copy-email" type="button" data-email="nuguly6248@naver.com">이메일 복사</button></div><p class="copy-status" role="status" aria-live="polite"></p></div>
       </section>
     </main>
-    <footer class="site-footer"><span>© 2026 원석연</span></footer>
+    <footer class="site-footer"><span>© 2026 원석연</span><a href="https://github.com/Nugury-code" target="_blank" rel="noopener">GitHub 프로필<span class="sr-only"> (새 탭)</span></a></footer>
   </div>
   <dialog id="project" class="astra-dialog" aria-labelledby="project-title">
     <div class="dialog-top"><span class="astra-dialog-brand">ASTRA <span>SKT ALEPH · 4인 팀</span></span><button class="close-button" type="button" aria-label="프로젝트 창 닫기">닫기 <span aria-hidden="true">×</span></button></div>
@@ -184,6 +184,16 @@
             </section>
         </div>
       </div>
+      <section class="astra-source-section" aria-labelledby="astra-source-title">
+        <div class="astra-source-heading"><div><p class="astra-detail-label">SOURCE &amp; VERIFICATION</p><h3 id="astra-source-title">구현 코드와 재현 방법</h3></div><a class="button button-outline" href="https://github.com/Nugury-code/ASTRA" target="_blank" rel="noopener">ASTRA GitHub<span class="sr-only"> (새 탭)</span></a></div>
+        <p class="astra-source-intro">담당 탐지 코드를 실행 예제·검증 기록과 함께 공개했습니다. 아래에서 확인할 구현 위치를 바로 찾을 수 있습니다.</p>
+        <div class="astra-source-grid">
+          <a href="https://github.com/Nugury-code/ASTRA/blob/main/detection/normalize.py" target="_blank" rel="noopener"><span>로그 처리</span><strong>수집·정규화</strong><p>MariaDB 수집기와 원본 로그의 공통 필드 정리</p><code>pull_from_db.py · normalize.py</code><span class="sr-only"> (새 탭)</span></a>
+          <a href="https://github.com/Nugury-code/ASTRA/blob/main/detection/classify.py" target="_blank" rel="noopener"><span>탐지 구현</span><strong>규칙·위험 점수</strong><p>네 시나리오 판별과 동일 접근의 탐지 근거 합산</p><code>classify.py · scoring.py</code><span class="sr-only"> (새 탭)</span></a>
+          <a href="https://github.com/Nugury-code/ASTRA/blob/main/docs/VALIDATION.md" target="_blank" rel="noopener"><span>실행·검증</span><strong>재현 예제·자동 검증</strong><p>가상 입력 6사례와 16개 검증, Python 3.12·3.13 CI 통과</p><code>run_demo.py · tests/</code><span class="sr-only"> (새 탭)</span></a>
+        </div>
+        <p class="astra-source-scope">공개 범위: 개인 담당 탐지 코드와 재현 자료. 실제 계정·DB 접속 설정 및 팀원의 대응 코드는 제외했습니다.</p>
+      </section>
       <details class="astra-system-details"><summary>전체 시스템과 역할 구분</summary><div class="astra-system-content"><p>운영 프로그램의 행동 기록을 로그 서버에 모으고, 탐지 결과를 대응 단계에 전달하는 구조입니다.</p><ol class="astra-system-flow"><li><strong>운영 프로그램</strong><span>행동 로그 발생</span></li><li><strong>로그 서버</strong><span>이벤트 수집·저장</span></li><li class="astra-system-own"><strong>로그 처리·탐지</strong><span>개인 구현</span></li><li><strong>보안 콘솔</strong><span>팀 대응 기능</span></li><li><strong>pfSense</strong><span>출발지 IP 차단</span></li></ol><p class="astra-system-note">팀 프로젝트에는 OCC 기반 권한 회수와 AI 보고서 기능도 포함됩니다. 이 페이지는 제가 맡은 로그 수집·정규화, 탐지 규칙 구현과 VM 배포·연계 검증을 중심으로 소개합니다.</p><dl class="astra-tech-context"><div><dt>직접 사용</dt><dd>Python · Linux · VMware</dd></div><div><dt>연동 환경</dt><dd>MariaDB · pfSense · SSH · Tailscale</dd></div></dl></div></details>
     </div>
   </dialog>
