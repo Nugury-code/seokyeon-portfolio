@@ -1,138 +1,104 @@
 {
   "source_site": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/",
-  "source_commit": "fea6145b9a98a78fc43dabe480b88d696f221399",
+  "source_commit": "c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
   "files": [
     {
-      "path": ".nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0,
-      "inline_base64": ""
+      "path": "index.html",
+      "size": 23022,
+      "sha256": "099eb6b1a1f3977c0e6537148bc10e1cc0d3c5ecb19a8f28eef148af0740d267",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/index.html?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": "b380f0d64fb3ad28368ea4b3319d28b4919e9495"
     },
     {
       "path": "app.js",
-      "sha256": "0bd1b56dceaafd34b667c613c2935e4fd8764a518982c537f26bffb1495a7c05",
-      "size": 3122,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/app.js?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "size": 3304,
+      "sha256": "0bdcd924e7caccb83f7662cdecd8b6904bf9662913a3c66914d72eb32b361228",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/app.js?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": "8ad13cd684cda6741476e03722dd24cc3d4e2d01"
     },
     {
-      "path": "assets/background-flow.svg",
-      "sha256": "9bcb7f609740009d4db67deb5f67623a8a4a2ca77d53cba26e6b9a6785b3cadb",
-      "size": 1260,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/background-flow.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "project-astra.css",
+      "size": 12440,
+      "sha256": "bc7d6242e4b31e968f460bfa3eb96829612611ddd766db2aa14acacae55a1246",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/project-astra.css?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/cafe-foliage-background.png",
-      "sha256": "fe878a5cd155fb4e6805ac9f58db558863412c8be74e6364144e82db1cba981a",
-      "size": 1510915,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/cafe-foliage-background.png?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "project-astra.js",
+      "size": 2490,
+      "sha256": "cd26c7afe222bf8031901e9be902b38bb8de73571c45fb7dc51404b5e9390f5a",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/project-astra.js?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/certificates/aleph-certificate-public.pdf",
-      "sha256": "e22f070caf4361a6df1bfbcd4691467f8b5c0e702623d1000a7ec080b309e031",
-      "size": 5873212,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/certificates/aleph-certificate-public.pdf?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "project-astra-media.js",
+      "size": 714,
+      "sha256": "030a1afbc454f73e8c4c5c9d6ba8d2579900311fd3a2be5ff8d7b7410a6d5d15",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/project-astra-media.js?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/certificates/aleph-certificate-public.png",
-      "sha256": "f63ccd89f6749f9ba1cd635171faef32f982c3f05f381fd39f65889f47323728",
-      "size": 3450177,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/certificates/aleph-certificate-public.png?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/bruteforce.mp4",
+      "size": 17750520,
+      "sha256": "2ab4ed411f6cc388c8b39fdbe08f5d38f1cedb8cea15efc5e5a99a8a6a865483",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/bruteforce.mp4?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/DASHBOARD-ICONS-LICENSE.txt",
-      "sha256": "e58a8fa57781d1dc7158b333b68c99461031fd2c25dfbd23eac15a8e984cae56",
-      "size": 11392,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/DASHBOARD-ICONS-LICENSE.txt?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/bruteforce.webp",
+      "size": 31704,
+      "sha256": "41ac782bfa5df59ee997486d0bee48f5c2cce227854867ece9c3589cf963fe64",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/bruteforce.webp?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/DEVICON-LICENSE.txt",
-      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664",
-      "size": 1072,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/DEVICON-LICENSE.txt?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/offboarded.mp4",
+      "size": 17990745,
+      "sha256": "72d0b61cc6cb5fb524e14b825d69de51d04d2dcc039982134548a1a72031a3b8",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/offboarded.mp4?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/linux.svg",
-      "sha256": "cf50ae4a263c6142963fad3561f7cb0311d0d41cc6189eadfb34f81a8a36acb0",
-      "size": 193922,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/linux.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/offboarded.webp",
+      "size": 37918,
+      "sha256": "e1185a7c31045cf12f2c0909cb06ee900c861fd8adf4cf9581902ccd44dc216a",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/offboarded.webp?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/NOTICE.txt",
-      "sha256": "1de8813a6fd9a45e12cc8f15d8abb712744490d515931efa96b8aa2aa490a2e8",
-      "size": 657,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/NOTICE.txt?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/sql-injection.mp4",
+      "size": 3682730,
+      "sha256": "3f664e0df6b40ae70410934fc5deb8030a1efb4e126bbe312fb29c77e7a6ceab",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/sql-injection.mp4?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/putty.svg",
-      "sha256": "b9b35aca6da411a99a248bd0a96f228d67190b54a85585a72bf533c768932b7a",
-      "size": 4063,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/putty.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/sql-injection.webp",
+      "size": 35500,
+      "sha256": "11c3788c71add0f84a1b7fe2abbb4806d09e849fcb46af00ea2031b13471f6eb",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/sql-injection.webp?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/python.svg",
-      "sha256": "71493b4a732f0532b3a03a7a95da3ee11a65766367c8303b901ffbe7bf91a3a2",
-      "size": 2300,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/python.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "path": "assets/projects/astra/unauthorized.mp4",
+      "size": 4515860,
+      "sha256": "2a7aa5f55b3f2003f2b829bdf28865e79e320424d7c41a7760d4ac4769b3c751",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/unauthorized.mp4?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
-      "path": "assets/icons/SIMPLE-ICONS-LICENSE.txt",
-      "sha256": "9046848b63a5c92bff14e4accca80bd987e0623b74adf9226ce5198d312b79d5",
-      "size": 6569,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/SIMPLE-ICONS-LICENSE.txt?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "assets/icons/tailscale.svg",
-      "sha256": "80ecdde08c2a4cddaa64447fcbfafab81326864671cd33b7fc3d40c4c8661dfc",
-      "size": 630,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/tailscale.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "assets/icons/vmware-workstation.png",
-      "sha256": "e7b2590d85206f2c0c81c981d243760bedd0d5a14f2f7e10e5c92fd618c2e95b",
-      "size": 12152,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/icons/vmware-workstation.png?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "assets/seokyeon-portrait.png",
-      "sha256": "40d99c33b3fdea302690d63d2b5fc02322c18df569115f515758577893c67a75",
-      "size": 1827468,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/seokyeon-portrait.png?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "favicon.svg",
-      "sha256": "756cff6b213ecd4a60314aadc1ecaf44397f115621298f8a199b6e9fa2429aa4",
-      "size": 207,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/favicon.svg?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "fonts/LICENSE.txt",
-      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04",
-      "size": 4418,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/fonts/LICENSE.txt?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "fonts/PretendardVariable.woff2",
-      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
-      "size": 2057688,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/fonts/PretendardVariable.woff2?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
-    },
-    {
-      "path": "index.html",
-      "sha256": "fbb88fab801996edfc8a0594a8958511f8d10cce4d0849daa7ed225301905f3c",
-      "size": 18247,
-      "inline_utf8": "<!doctype html>\r\n<html lang=\"ko\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <meta name=\"theme-color\" content=\"#f6f5ef\">\r\n  <meta name=\"description\" content=\"자기주도적인 학습과 개선으로 업무의 완성도를 높이는 원석연의 포트폴리오. 영상 편집 실무와 보안 교육·프로젝트 경험을 소개합니다.\">\r\n  <title>원석연 — 자기주도적인 학습과 개선으로 업무의 완성도를 높입니다</title>\r\n  <link rel=\"icon\" href=\"favicon.svg\" type=\"image/svg+xml\">\r\n  <link rel=\"preload\" href=\"fonts/PretendardVariable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>\r\n  <link rel=\"stylesheet\" href=\"style.css?v=footer-right-20261121_071555\">\r\n  <script src=\"app.js?v=certificates-20261121_061555\" defer></script>\r\n</head>\r\n<body>\r\n  <div class=\"ambient\" aria-hidden=\"true\"></div>\r\n  <div class=\"botanical-background\" aria-hidden=\"true\"></div>\r\n  <a class=\"skip-link\" href=\"#main\">본문 바로가기</a>\r\n  <div class=\"site-shell\">\r\n    <header class=\"site-header\">\r\n      <a class=\"wordmark\" href=\"#hello\" aria-label=\"원석연, 첫 화면\">원석연<span aria-hidden=\"true\">.</span></a>\r\n      <nav aria-label=\"주요 메뉴\"><a href=\"#about\">소개</a><a href=\"#skills\">기술</a><a href=\"#experience\">경력·경험</a><a href=\"#work\">프로젝트</a><a href=\"#certificates\">교육</a><a class=\"nav-contact\" href=\"#contact\">연락하기</a></nav>\r\n    </header>\r\n    <main id=\"main\">\r\n      <section class=\"hero hero--profile\" id=\"hello\" aria-labelledby=\"hero-title\">\r\n        <div class=\"hero-copy\">\r\n          <h1 id=\"hero-title\"><span class=\"headline-line\">자기주도적인</span> <span class=\"headline-line\">학습과 개선으로</span> <span class=\"headline-line headline-accent\">업무의 완성도를</span> <span class=\"headline-line headline-accent\">높입니다.</span></h1>\r\n          <div class=\"hero-description\">\r\n            <p>고객과의 소통과 문제 해결 경험을 바탕으로 보안·IT 기술지원 분야의 전문성을 쌓아가고 있습니다.</p>\r\n          </div>\r\n          <div class=\"hero-actions\"><a class=\"button button-primary\" href=\"#work\">프로젝트 살펴보기</a></div>\r\n        </div>\r\n        <figure class=\"portrait\">\r\n          <div class=\"portrait-outline\" aria-hidden=\"true\"></div>\r\n          <div class=\"portrait-image\"><img src=\"assets/seokyeon-portrait.png\" alt=\"네이비 정장을 입은 원석연\" width=\"1086\" height=\"1448\" fetchpriority=\"high\" decoding=\"async\"></div>\r\n          <figcaption><span class=\"portrait-name\">원석연</span><span class=\"portrait-roman\" lang=\"en\">SEOKYEON WON</span></figcaption>\r\n        </figure>\r\n      </section>\r\n      <section class=\"about section-space\" id=\"about\" aria-labelledby=\"about-title\">\r\n        <p class=\"section-label\">자기소개</p>\r\n        <h2 id=\"about-title\">업무의 개선점을 찾아,<br>결과물의 품질과 작업 효율을 높여 왔습니다.</h2>\r\n        <div class=\"about-description\">\r\n          <p>영상 편집을 독학해 프리랜서로 활동하며, 고객의 요구를 파악하고 결과물의 완성도를 높여 왔습니다. 필요한 기능을 스스로 익혀 적용하고, 작업 방식을 개선해 편집 시간을 단축했습니다.</p>\r\n          <p>SKT ALEPH 캡스톤 프로젝트에서는 Python을 활용해 로그 분석 기반 이상탐지 기능을 구현했습니다. 중복 탐지의 원인을 찾아 규칙을 개선하고, 팀의 대응 기능과 연계한 차단 결과를 검증했습니다.</p>\r\n        </div>\r\n      </section>\r\n      <section class=\"skills section-space\" id=\"skills\" aria-labelledby=\"skills-title\">\r\n        <div class=\"section-heading\"><div><p class=\"section-label\" lang=\"en\">SKILLS</p><h2 id=\"skills-title\">기술 스택</h2></div></div>\r\n        <div class=\"skills-grid\">\r\n          <article class=\"skill-card\">\r\n            <p class=\"skill-category\">로그 분석·자동화</p>\r\n            <h3>Python</h3>\r\n            <p class=\"skill-description\">서버 로그 수집·정규화, 이상탐지 규칙 구현 및 개선</p>\r\n            <div class=\"skill-logos\" aria-hidden=\"true\"><img class=\"technology-logo\" src=\"assets/icons/python.svg\" alt=\"\" width=\"40\" height=\"40\" loading=\"lazy\" decoding=\"async\"></div>\r\n          </article>\r\n          <article class=\"skill-card\">\r\n            <p class=\"skill-category\">서버·가상환경</p>\r\n            <h3>Linux · VMware</h3>\r\n            <p class=\"skill-description\">탐지 프로그램 배포·실행, 팀 대응 기능과의 연계 검증</p>\r\n            <div class=\"skill-logos\" aria-hidden=\"true\"><img class=\"technology-logo\" src=\"assets/icons/linux.svg\" alt=\"\" width=\"40\" height=\"40\" loading=\"lazy\" decoding=\"async\"><img class=\"technology-logo\" src=\"assets/icons/vmware-workstation.png\" alt=\"\" width=\"40\" height=\"40\" loading=\"lazy\" decoding=\"async\"></div>\r\n          </article>\r\n          <article class=\"skill-card\">\r\n            <p class=\"skill-category\">원격 접속</p>\r\n            <h3>SSH · Tailscale</h3>\r\n            <p class=\"skill-description\">SSH(PuTTY)·Tailscale을 캡스톤 프로젝트의 원격 접속 도구로 활용</p>\r\n            <div class=\"skill-logos\" aria-hidden=\"true\"><img class=\"technology-logo\" src=\"assets/icons/putty.svg\" alt=\"\" width=\"40\" height=\"40\" loading=\"lazy\" decoding=\"async\"><img class=\"technology-logo\" src=\"assets/icons/tailscale.svg\" alt=\"\" width=\"40\" height=\"40\" loading=\"lazy\" decoding=\"async\"></div>\r\n          </article>\r\n        </div>\r\n      </section>\r\n      <section class=\"experience section-space\" id=\"experience\" aria-labelledby=\"experience-title\">\r\n        <div class=\"section-heading\"><div><p class=\"section-label\" lang=\"en\">EXPERIENCE</p><h2 id=\"experience-title\">경력·경험</h2></div></div>\r\n        <ol class=\"experience-timeline\" aria-label=\"최근 경험부터 정리한 이력\">\r\n          <li class=\"experience-item\">\r\n            <div class=\"experience-meta\"><p class=\"experience-date\"><time datetime=\"2026-08\">2026.08</time> — <time datetime=\"2026-11\">2026.11</time></p><p class=\"experience-duration\">(3개월)</p><p class=\"experience-type\">보안 교육·팀 프로젝트</p></div>\r\n            <div class=\"experience-content\"><h3>SKT ALEPH</h3><p>제로트러스트 기반 네트워크·보안 인프라 기초를 학습했습니다. 캡스톤 프로젝트에서는 Python 기반 로그 분석·이상탐지 자동화 기능을 구현하고, VM 서버 배포와 팀 대응 기능과의 연계 검증을 담당했습니다.</p><a class=\"experience-certificate-link\" href=\"#certificates\">인증서 보기</a></div>\r\n          </li>\r\n          <li class=\"experience-item\">\r\n            <div class=\"experience-meta\"><p class=\"experience-date\"><time datetime=\"2023-12\">2023.12</time> — <time datetime=\"2026-05\">2026.05</time></p><p class=\"experience-duration\">(28개월)</p><p class=\"experience-type\">프리랜서</p></div>\r\n            <div class=\"experience-content\"><h3>영상 편집(구독자 112만·23만 규모 채널)</h3><p>영상 편집을 <strong>독학</strong>해 프리랜서로 활동하며, 클라이언트의 요구를 결과물에 반영하고 필요한 기능을 스스로 학습해 실무에 적용했습니다. 채널 동향을 분석해 편집 방식을 개선하고, 조회수 향상으로 이어지는 성과를 만들었습니다.</p></div>\r\n          </li>\r\n          <li class=\"experience-item\">\r\n            <div class=\"experience-meta\"><p class=\"experience-date\">2021.08 — 2023.05</p><p class=\"experience-duration\">(약 21개월)</p><p class=\"experience-type\">사회복무요원 · 군복무</p></div>\r\n            <div class=\"experience-content\"><h3>보건소 방문자 안내·응대</h3><p>코로나19 유행 시기, 하루 약 500~700명이 방문하는 보건소에서 입구 안내를 담당했습니다. 방문 목적을 확인하고 필요한 정보를 안내했으며, 일부 기간에는 해당 업무를 단독으로 수행했습니다.</p></div>\r\n          </li>\r\n        </ol>\r\n      </section>\r\n      <section class=\"work section-space\" id=\"work\" aria-labelledby=\"work-title\">\r\n        <div class=\"section-heading\"><div><p class=\"section-label\" lang=\"en\">SELECTED EXPERIENCE</p><h2 id=\"work-title\">직접 해보며 배운 것.</h2></div><p class=\"section-intro\">직접 만들고, 서버에 올리고,<br>예상대로 작동하는지 확인했습니다.</p></div>\r\n        <article class=\"project-feature\">\r\n          <div class=\"project-copy\">\r\n            <p class=\"project-category\">SKT ALEPH <span aria-hidden=\"true\">/</span> 보안 교육 팀 프로젝트</p>\r\n            <h3>수상한 접속을 찾고,<br> 막히는지 확인하기.</h3>\r\n            <p class=\"project-description\">서버에 남은 접속 기록에서 이상한 움직임을 찾는 프로그램을 만들고, 팀의 대응 기능과 연결해 실제 차단까지 확인했습니다.</p>\r\n            <dl class=\"project-role\"><div><dt>직접 구현</dt><dd>Python 로그 정리·이상탐지 규칙</dd></div><div><dt>배포·검증</dt><dd>VM 서버 배포·탐지 및 차단 연계 확인</dd></div></dl>\r\n            <div class=\"tech-list\" aria-label=\"프로젝트에 사용한 기술\"><span>Python</span><span>Linux</span><span>VM</span><span>pfSense</span></div>\r\n            <button class=\"button button-outline\" type=\"button\" data-dialog=\"project\">프로젝트 자세히 보기</button>\r\n          </div>\r\n          <div class=\"project-visual\" aria-label=\"서버 기록을 Python으로 분석하고 팀 대응 기능에 연결해 차단을 확인하는 흐름\">\r\n            <div class=\"visual-header\"><span>기록에서, 해결의 단서로.</span><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M12 3 4.5 6v5.4c0 4.3 3.2 7.6 7.5 9.6 4.3-2 7.5-5.3 7.5-9.6V6L12 3Z\"/><path d=\"m8.5 12 2.3 2.3 4.7-4.6\"/></svg></div>\r\n            <div class=\"flow\">\r\n              <div class=\"flow-node\"><span class=\"flow-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M8 8h8M8 12h8M8 16h5\"/></svg></span><div><span class=\"flow-kicker\">접속 기록</span><strong>어떤 일이 있었는지 살피고</strong></div></div>\r\n              <div class=\"flow-connector\" aria-hidden=\"true\"></div>\r\n              <div class=\"flow-node flow-personal\"><span class=\"flow-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16\"/></svg></span><div><span class=\"flow-kicker\">Python 이상 탐지</span><strong>의심스러운 움직임을 찾습니다</strong></div><span class=\"flow-badge\">직접 구현</span></div>\r\n              <div class=\"flow-connector\" aria-hidden=\"true\"></div>\r\n              <div class=\"flow-node\"><span class=\"flow-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 3 4.5 6v5.4c0 4.3 3.2 7.6 7.5 9.6 4.3-2 7.5-5.3 7.5-9.6V6L12 3Z\"/><path d=\"m8.5 12 2.3 2.3 4.7-4.6\"/></svg></span><div><span class=\"flow-kicker\">팀의 대응 기능과 연계</span><strong>차단 결과까지 확인합니다</strong></div></div>\r\n            </div>\r\n            <div class=\"visual-footer\"><span class=\"visual-small-line\" aria-hidden=\"true\"></span><p>탐지 구현부터 연계 검증까지</p></div><p class=\"visual-caption\">프로젝트의 동작 흐름을 설명한 그림입니다.</p>\r\n          </div>\r\n        </article>\r\n        <div class=\"work-note\"><span>제가 확인한 네 가지 상황</span><p>브루트포스 · 권한 밖 접근 · 퇴사자 계정 접근 · SQL Injection</p></div>\r\n      </section>\r\n      <section class=\"certificates section-space\" id=\"certificates\" aria-labelledby=\"certificates-title\">\r\n        <div class=\"section-heading\"><div><p class=\"section-label\" lang=\"en\">EDUCATION</p><h2 id=\"certificates-title\">교육·수료증</h2></div></div>\r\n        <article class=\"certificate-layout\" aria-labelledby=\"aleph-certificate-title\">\r\n          <button class=\"certificate-preview\" type=\"button\" data-dialog=\"certificate-preview\" aria-label=\"SKT ALEPH 과정 인증서 크게 보기\" aria-haspopup=\"dialog\" aria-controls=\"certificate-preview\"><img src=\"assets/certificates/aleph-certificate-public.png\" alt=\"SKT ALEPH 과정 인증서. 원석연, 2026년 11월 12일 수료. 케테르 최고 등급과 Class Top 등 엠블럼이 표시되어 있습니다.\" width=\"2339\" height=\"1653\" loading=\"lazy\" decoding=\"async\"></button>\r\n          <div class=\"certificate-copy\">\r\n            <h3 id=\"aleph-certificate-title\">SKT ALEPH</h3>\r\n            <p class=\"certificate-course\">AI 보안 에이전트 개발 과정 인증</p>\r\n            <p class=\"certificate-recognition\">Class Top · 케테르 최고 등급</p>\r\n            <p class=\"certificate-course\">전국 수강생 <strong>132명 중 14위</strong> · 출석률 <strong>100%</strong></p>\r\n            <dl class=\"certificate-details\"><div><dt>교육 기간</dt><dd><time datetime=\"2026-08-11\">2026.08.11</time> — <time datetime=\"2026-11-12\">2026.11.12</time><span class=\"certificate-duration\">(3개월)</span></dd></div><div><dt>수료일</dt><dd><time datetime=\"2026-11-12\">2026.11.12</time></dd></div></dl>\r\n            <div class=\"certificate-actions\"><button class=\"button button-primary\" type=\"button\" data-dialog=\"certificate-preview\" aria-haspopup=\"dialog\" aria-controls=\"certificate-preview\">인증서 크게 보기</button><a class=\"certificate-pdf-link\" href=\"assets/certificates/aleph-certificate-public.pdf\" target=\"_blank\" rel=\"noopener\">인증서 PDF 보기<span class=\"sr-only\"> (새 탭)</span></a></div>\r\n          </div>\r\n        </article>\r\n      </section>\r\n      <section class=\"contact section-space\" id=\"contact\" aria-labelledby=\"contact-title\">\r\n        <div class=\"contact-copy\"><p class=\"section-label\" lang=\"en\">CONTACT</p><h2 id=\"contact-title\">연락하기</h2><dl class=\"contact-info\"><div><dt>희망 직무</dt><dd>보안 · IT 기술지원 · 운영 · QA</dd></div><div><dt>근무 지역</dt><dd>전국 근무 가능</dd></div></dl></div>\r\n        <div class=\"contact-actions\"><a class=\"email-link\" href=\"mailto:nuguly6248@naver.com\">nuguly6248@naver.com</a><div class=\"contact-buttons\"><a class=\"button button-primary\" href=\"mailto:nuguly6248@naver.com\">메일 보내기</a><button class=\"button button-outline copy-email\" type=\"button\" data-email=\"nuguly6248@naver.com\">이메일 복사</button></div><p class=\"copy-status\" role=\"status\" aria-live=\"polite\"></p></div>\r\n      </section>\r\n    </main>\r\n    <footer class=\"site-footer\"><span>© 2026 원석연</span></footer>\r\n  </div>\r\n  <dialog id=\"project\" aria-labelledby=\"project-title\">\r\n    <div class=\"dialog-top\"><span class=\"section-label\">SKT ALEPH · 팀 프로젝트</span><button class=\"close-button\" type=\"button\" aria-label=\"프로젝트 창 닫기\">닫기 <span aria-hidden=\"true\">×</span></button></div>\r\n    <div class=\"dialog-body\"><h2 id=\"project-title\">접속 기록에서 이상 징후를 찾고,<br>대응까지 이어지는지 확인했습니다.</h2><p class=\"dialog-lead\">팀은 서버 로그를 분석해 이상 접속을 찾고, 위험도에 따라 자동으로 또는 담당자의 승인 후 차단하는 시스템을 만들었습니다.</p>\r\n      <div class=\"project-tabs\" role=\"tablist\" aria-label=\"프로젝트 상세\"><button id=\"role-tab\" type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"role-panel\">제가 맡은 역할</button><button id=\"scenario-tab\" type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"scenario-panel\" tabindex=\"-1\">검증한 네 가지 상황</button></div>\r\n      <section id=\"role-panel\" role=\"tabpanel\" aria-labelledby=\"role-tab\" tabindex=\"0\"><h3>직접 구현하고 검증한 부분</h3><ul class=\"readable-list\"><li>서버 로그를 모아 같은 형식으로 정리하고, 이상 징후를 찾는 Python 탐지 규칙을 작성했습니다.</li><li>VM으로 구성한 서버에 프로그램을 배포하고 실행했습니다.</li><li>모의 공격 후 로그와 탐지 결과를 확인했습니다.</li><li>팀의 대응 기능과 연결하고, 탐지된 출발지 IP가 방화벽에서 차단되는지 확인했습니다.</li></ul><div class=\"role-note\"><strong>팀의 구현과 제 역할</strong><p>방화벽 대응과 AI를 활용한 접근권한 회수는 팀의 기능입니다. 저는 Python 이상탐지 구현·VM 배포·탐지 및 대응 연계 검증을 맡았습니다.</p></div></section>\r\n      <section id=\"scenario-panel\" role=\"tabpanel\" aria-labelledby=\"scenario-tab\" tabindex=\"0\" hidden><h3>이런 접속을 시험했습니다</h3><dl class=\"scenario-list\"><div><dt>비밀번호를 계속 틀리는 접속</dt><dd>짧은 시간에 로그인을 반복하는 공격 · 브루트포스</dd></div><div><dt>허용되지 않은 페이지에 접근</dt><dd>주소를 바꿔 다른 부서 페이지에 들어가려는 상황 · 권한 밖 접근</dd></div><div><dt>퇴사한 사람의 계정으로 접속</dt><dd>퇴사자 계정을 이용한 접근 시도</dd></div><div><dt>입력창에 공격용 명령을 넣는 시도</dt><dd>데이터베이스를 조작하려는 공격 · SQL Injection</dd></div></dl></section>\r\n      <details class=\"technical-details\"><summary>사용한 기술 자세히 보기</summary><p>Python · pfSense · Linux · VM · Tailscale · SSH(PuTTY)</p></details>\r\n    </div>\r\n  </dialog>\r\n  <dialog class=\"certificate-dialog\" id=\"certificate-preview\" aria-labelledby=\"certificate-preview-title\">\r\n    <div class=\"dialog-top\"><h2 id=\"certificate-preview-title\">SKT ALEPH 과정 인증서</h2><button class=\"close-button\" type=\"button\" aria-label=\"인증서 창 닫기\">닫기 <span aria-hidden=\"true\">×</span></button></div>\r\n    <div class=\"certificate-dialog-body\"><img class=\"certificate-dialog-image\" src=\"assets/certificates/aleph-certificate-public.png\" alt=\"Class Top 등 엠블럼과 교육 이수 내용이 있는 원석연의 SKT ALEPH 과정 인증서\" width=\"2339\" height=\"1653\" loading=\"lazy\" decoding=\"async\"><a class=\"certificate-pdf-link\" href=\"assets/certificates/aleph-certificate-public.pdf\" target=\"_blank\" rel=\"noopener\">인증서 PDF 보기<span class=\"sr-only\"> (새 탭)</span></a></div>\r\n  </dialog>\r\n</body>\r\n</html>\r\n"
+      "path": "assets/projects/astra/unauthorized.webp",
+      "size": 34492,
+      "sha256": "ee293ff2f94c6d0df35b8ae3e373f481983a38d017adde18e3933825c8448946",
+      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/assets/projects/astra/unauthorized.webp?snapshot=c7d4ac37fc0ac0317e4f7fdb05a8a98926ed3b4e",
+      "previous_git_blob_sha": null
     },
     {
       "path": "README.md",
-      "sha256": "9965770575b5ab15412c522fd133aa5b69dd49272d4674f14f157efec7fd31b8",
-      "size": 1180,
-      "inline_base64": "IyDsm5DshJ3sl7Ag7Y+s7Yq47Y+066as7JikDQoNClvqs7XqsJwg7Y+s7Yq47Y+066as7JikIOuwlOuhnOqwgOq4sF0oaHR0cHM6Ly9udWd1cnktY29kZS5naXRodWIuaW8vc2Vva3llb24tcG9ydGZvbGlvLykNCg0K67O07JWIwrdJVCDquLDsiKDsp4Dsm5Ag67aE7JW87J2YIOqyve2XmOqzvCDtlITroZzsoJ3tirjrpbwg7IaM6rCc7ZWY64qUIOygleyggSDsm7nsgqzsnbTtirjsnoXri4jri6QuDQoNCiMjIO2MjOydvCDqtazshLENCg0KLSBgaW5kZXguaHRtbGA6IO2OmOydtOyngCDrgrTsmqkNCi0gYHN0eWxlLmNzc2A6IOuUlOyekOyduA0KLSBgYXBwLmpzYDog7J247Kad7IScwrftlITroZzsoJ3tirgg7ZmV64yAIOywveqzvCDsnbTrqZTsnbwg67O17IKsIOuTsSDrj5nsnpENCi0gYGFzc2V0cy9gOiDtlITroZztlYQg7IKs7KeELCDrsLDqsr0sIOuhnOqzoCwg7ZmV7J24IOy9lOuTnOulvCDruYTqs7XqsJwg7LKY66as7ZWcIOyduOymneyEnA0KLSBgZm9udHMvYDogUHJldGVuZGFyZCDquIDqvLTqs7wg65287J207ISg7IqkDQoNCkhUTUzCt0NTU8K3SmF2YVNjcmlwdOyZgCDsnbTrr7jsp4Ag7YyM7J287J2EIOq3uOuMgOuhnCDqsozsi5ztlZjripQg7Ju57IKs7J207Yq47J6F64uI64ukLiDsnbTrr7jsp4DripQg7ZmV7J24IOy9lOuTnOulvCDsoJzqsbDtlZwg6rO16rCc7JqpIOyekOujjOunjCDtj6ztlajtlanri4jri6QuIOy9lOuTnOqwgCDsnojripQg7Kad7IScIOybkOuzuMK37J2066Cl7IScIOybkOuzuMK37Leo7JeFIOq0gOumrCDtjIzsnbzCt+ygkeyGjSDthqDtgbDCt+2YuOyKpO2MhSDshKTsoJXCt+q4sOyhtCBHaXQg6riw66Gd7J2AIO2PrO2VqO2VmOyngCDslYrsirXri4jri6QuDQoNCu2UhOuhnOygne2KuCDsg4HshLgg7J6Q66OM7JmAIOyLnOyXsCDsmIHsg4HsnYAg7LaU7ZuEIOuztOyZhO2VoCDsmIjsoJXsnoXri4jri6QuIOq4sOyIoCDrqqnroZ3snYAg7Iuk7KCcIO2UhOuhnOygne2KuCDsiJjtlokg67KU7JyE66W8IO2ZleyduO2VtCDqsLHsi6Dtlanri4jri6QuDQoNCuyCrOynhOqzvCDqsJzsnbgg7L2Y7YWQ7Lig64qUIO2PrO2KuO2PtOumrOyYpCDshozsnKDsnpDsnZgg7J6Q66OM7J6F64uI64ukLiDslYTsnbTsvZjCt+q4gOq8tOydmCDsnbTsmqkg7KGw6rG07J2AIOqwgSDrnbzsnbTshKDsiqQg7YyM7J287J2EIOywuOqzoO2VmOyEuOyalC4NCg=="
-    },
-    {
-      "path": "style.css",
-      "sha256": "cf137a3a9e8fe216cf8fc73a9862532842354b4937d6777a4018f2ec1151bd7c",
-      "size": 32254,
-      "url": "https://seokyeon-won-portfolio.nugury6248.chatgpt.site/style.css?snapshot=fea6145b9a98a78fc43dabe480b88d696f221399"
+      "size": 1530,
+      "sha256": "9175be5c443b54e31325ea24ad8fc078bce31afcda3bd841770ab04c7254b2f8",
+      "inline_utf8": "# 원석연 포트폴리오\n\n[공개 포트폴리오 바로가기](https://nugury-code.github.io/seokyeon-portfolio/)\n\n보안·IT 기술지원 분야의 경험과 프로젝트를 소개하는 정적 웹사이트입니다.\n\n## 파일 구성\n\n- `index.html`: 페이지 내용\n- `style.css`: 디자인\n- `app.js`: 인증서·프로젝트 확대 창과 이메일 복사 등 동작\n- `assets/`: 프로필 사진, 배경, 로고, 확인 코드를 비공개 처리한 인증서\n- `fonts/`: Pretendard 글꼴과 라이선스\n\nHTML·CSS·JavaScript와 이미지 파일을 그대로 게시하는 웹사이트입니다. 이미지는 확인 코드를 제거한 공개용 자료만 포함합니다. 코드가 있는 증서 원본·이력서 원본·취업 관리 파일·접속 토큰·호스팅 설정·기존 Git 기록은 포함하지 않습니다.\n\n프로젝트 상세 자료와 시연 영상은 추후 보완할 예정입니다. 기술 목록은 실제 프로젝트 수행 범위를 확인해 갱신합니다.\n\n사진과 개인 콘텐츠는 포트폴리오 소유자의 자료입니다. 아이콘·글꼴의 이용 조건은 각 라이선스 파일을 참고하세요.\n\n## ASTRA 시연 영상\n\n브루트포스·퇴사자 계정 접근·권한 밖 접근·SQL Injection 네 시연 영상을 프로젝트 상세에서 재생할 수 있습니다. 영상·썸네일은 assets/projects/astra/에 두고 project-astra-media.js에서 연결합니다. Python 탐지 구현·VM 배포와 팀 대응·보고서 기능을 구분해 소개합니다.\n",
+      "previous_git_blob_sha": "098405ea520b616d574edd8a1391f36b5ba2b4c2"
     }
   ]
 }

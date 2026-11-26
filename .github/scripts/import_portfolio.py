@@ -24,14 +24,25 @@ def load(entry):
             raise ValueError('Unexpected file origin')
         request = urllib.request.Request(entry['url'], headers={'User-Agent': 'Mozilla/5.0 Portfolio-Import'})
         with urllib.request.urlopen(request, timeout=60) as response:
-            content = response.read(10_000_001)
+            if not 0 <= entry['size'] <= 25_000_000:
+                raise ValueError('File exceeds the approved asset limit')
+            content = response.read(entry['size'] + 1)
     if len(content) != entry['size'] or hashlib.sha256(content).hexdigest() != entry['sha256']:
         raise ValueError('Snapshot verification failed: ' + entry['path'])
-    return relative, content
+    return relative, content, entry
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
     verified = list(executor.map(load, manifest['files']))
-for relative, content in verified:
+# Protect user edits and allow an identical rerun before writing any files.
+for relative, content, entry in verified:
+    destination = root.joinpath(*relative.parts)
+    if destination.exists():
+        current = destination.read_bytes()
+        git_blob = hashlib.sha1(b'blob ' + str(len(current)).encode() + b'\0' + current).hexdigest()
+        if current != content and git_blob != entry.get('previous_git_blob_sha'):
+            raise ValueError('Preserving changed file: ' + str(relative))
+
+for relative, content, entry in verified:
     destination = root.joinpath(*relative.parts)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(content)
