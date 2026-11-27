@@ -72,3 +72,29 @@ if ('IntersectionObserver' in window) {
   sections.forEach(section => observer.observe(section));
   observer.observe(document.getElementById('hello'));
 }
+
+
+// Open the existing dialog when a portfolio project link is shared.
+const projectRoutes = new Map([
+  ['#astra-demos', 'project'],
+  ['#security-details', 'security-lab'],
+]);
+function openSharedProject() {
+  const id = projectRoutes.get(window.location.hash);
+  if (!id) return;
+  const trigger = document.querySelector('[data-dialog="' + id + '"]');
+  if (!document.getElementById(id)?.open) trigger?.click();
+  if (id === 'project') {
+    selectTab(tabs[0]);
+    tabs[0].focus({ preventScroll: true });
+  }
+}
+window.addEventListener('hashchange', openSharedProject);
+for (const id of projectRoutes.values()) {
+  document.getElementById(id)?.addEventListener('close', () => {
+    if (projectRoutes.get(window.location.hash) === id) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search + '#work');
+    }
+  });
+}
+openSharedProject();
