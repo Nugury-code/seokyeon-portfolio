@@ -61,13 +61,13 @@
 .astra-source-heading .button{flex-shrink:0}
 .astra-source-intro{font-size:1rem;line-height:1.8;color:var(--muted);margin:15px 0 20px}
 .astra-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.astra-source-grid>a{display:block;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--cream);color:var(--ink);text-decoration:none;transition:border-color .18s ease,background .18s ease}
-.astra-source-grid>a:hover{border-color:var(--accent);background:#edf2e5}
-.astra-source-grid>a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
-.astra-source-grid>a>span:first-child{font-size:.875rem;color:var(--accent);font-weight:600}
+.astra-source-grid>article{display:block;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--cream);color:var(--ink);text-decoration:none;transition:border-color .18s ease,background .18s ease}
+.astra-source-grid>article:focus-within{border-color:var(--accent);background:#edf2e5}
+.astra-source-files a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.astra-source-grid>article>span:first-child{font-size:.875rem;color:var(--accent);font-weight:600}
 .astra-source-grid strong{display:block;margin:8px 0;font-size:1.125rem;line-height:1.5}
 .astra-source-grid p{font-size:1rem;line-height:1.75;margin:0 0 16px}
-.astra-source-grid code{display:block;font-size:.875rem;line-height:1.7;overflow-wrap:anywhere;color:var(--muted)}
+.astra-source-files{display:flex;flex-wrap:wrap;gap:4px 14px}.astra-source-files a{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.875rem;line-height:1.7;overflow-wrap:anywhere;color:var(--accent);text-decoration:underline;text-underline-offset:3px}.astra-source-files a:hover{text-decoration-thickness:2px}
 .astra-source-scope{font-size:.875rem;line-height:1.8;color:var(--muted);margin:18px 0 0}
 .site-footer>a{color:var(--accent);font-size:1rem;text-underline-offset:4px}
 @media(max-width:720px){.astra-source-section{padding:20px}.astra-source-heading{display:block}.astra-source-heading .button{margin-top:15px}.astra-source-grid{grid-template-columns:1fr}.astra-source-heading h3{font-size:1.375rem}}
